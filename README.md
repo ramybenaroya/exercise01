@@ -21,7 +21,9 @@
 	- Image: `http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-{{imageSuffix}}.jpg`
 
 Note: Each character data object contains `wikiSuffix` & `imageSuffix` properties.
-
+- Useful Native Javascripts Methods
+	- [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+	- [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 - Useful jquery methods
 	- [$.getJSON](http://api.jquery.com/jquery.getjson/)
 	- [append](http://api.jquery.com/append/)
