@@ -1,0 +1,19 @@
+{
+  "name": "exercise01",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ramybenaroya/exercise01",
+  "authors": [
+    "ramyb <rami@dudamobile.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
