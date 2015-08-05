@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
+  <title>Game of Thrones</title>
+  <meta name="description" content="Game of Thrones">
   <meta name="author" content="SitePoint">
 
   <link rel="stylesheet" href="style.css">
@@ -16,29 +16,6 @@
 </head>
 
 <body>
-    <h1>Game of Thrones Houses</h1>
-    <script id="houses" type="text/x-handlebars-template">
-      <ul id="items">
-        {{#each houses}}
-          <li class="item">
-            <h2>{{name}}</h2>  
-
-            {{#each people}}
-              <div class="entity">
-                <a href="http://gameofthrones.wikia.com/wiki/{{wikiSuffix}}" target="_blank">
-                  <img alt="{{name}}" width="60" src="http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-{{imageSuffix}}.jpg">
-                </a>
-                <div class="info">
-                  <h3><a href="http://gameofthrones.wikia.com/wiki/{{wikiSuffix}}" target="_blank">{{name}}</a></h3>
-                  <p>{{description}}</p>
-                </div>
-              </div>
-            {{/each}}
-          </li>
-        {{/each}}
-      </ul>
-    </script>
-    <script src="bower_components/handlebars/handlebars.js"></script>
     <script src="bower_components/jquery/dist/jquery.js"></script>
   	<script src="script.js"></script>
 </body>
