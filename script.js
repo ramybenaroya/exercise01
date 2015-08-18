@@ -1,4 +1,4 @@
-(function(global, $){
+(function(global, $, Handlebars){
 
 	var jsonDataPromise = fetchData();
 
@@ -17,4 +17,4 @@
 
 	$(init);
 
-})(this, $)
+})(this, $, Handlebars)
